@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+    .body {
+        height: 100vh;
+        box-sizing: border-box;
+        background: linear-gradient(to right, #FF6584 40%, white 40%);}
+      .header {
+        background-color: black;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+      }
+      
+      .zIndex {
+        font-size: 50px;
+        z-index: 10000;
+      }
+      
+      .main {
+        background-color: pink;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .footer {
+        background-color: white;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+      }
+      
+      .text {
+        font-size: 40px;
+        color:green;
+        text-shadow: 1px 1px 2px orange;}
